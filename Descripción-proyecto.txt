@@ -1,0 +1,108 @@
+1. Descripción del proyecto
+
+    Se propone desarrollar una aplicación web llamada StudyFlow, cuyo objetivo es ayudar a los usuarios a organizar sus estudios, gestionar sus asignaturas y planificar las tareas que deben realizar.
+    La aplicación permitirá consultar las asignaturas disponibles, organizar el trabajo pendiente y llevar un seguimiento de las tareas completadas.
+    El proyecto se desarrollará utilizando exclusivamente HTML, CSS y JavaScript vanilla, sin frameworks ni bibliotecas externas.
+    La aplicación estará formada por varias páginas HTML independientes que compartirán la información necesaria.
+
+2. Funcionalidades
+2.1. Página principal (index.html)
+
+La aplicación dispondrá de una página principal que mostrará un resumen de la actividad del usuario.
+
+Deberá incluir:
+
+    Un saludo personalizado en función de la hora del día.
+    El número de asignaturas registradas.
+    El número de tareas pendientes.
+    El número de tareas completadas.
+    Las próximas tareas que debe realizar.
+    El porcentaje de tareas completadas.
+    Un mensaje motivador que pueda variar.
+
+La información deberá actualizarse cuando se produzcan cambios en las demás secciones.
+2.2. Gestión de asignaturas (asignaturas.html)
+
+El usuario podrá consultar y gestionar las asignaturas que está cursando.
+
+Cada asignatura tendrá información identificativa, una descripción, un profesor y un color.
+
+Se deberán permitir las siguientes operaciones:
+
+    Consultar todas las asignaturas en las que esta matriculado el usuario.
+    Matricularse de una asignatura.
+    Desmatricularse de una asignatura.
+    Consultar las tareas relacionadas con cada asignatura.
+
+Si se intenta desmatricular de una asignatura que tiene tareas relacionadas, se deberá gestionar adecuadamente esta situación.
+2.3. Gestión de tareas (tareas.html)
+
+El usuario podrá organizar las actividades que tiene pendientes para cada asignatura.
+
+Cada tarea tendrá:
+
+    Un título.
+    Una descripción.
+    Una asignatura relacionada.
+    Una fecha de entrega.
+    Un nivel de prioridad.
+    Un estado (pendiente o completada).
+
+Se deberán permitir las siguientes operaciones:
+
+    Crear tareas.
+    Consultar todas las tareas.
+    Ordenar tareas por fecha
+    Modificar tareas existentes.
+    Eliminar tareas.
+    Marcar tareas como completadas.
+    Volver a marcar tareas completadas como pendientes.
+
+La aplicación deberá permitir buscar tareas por su título y consultar tareas aplicando diferentes criterios, como asignatura, prioridad o estado.
+
+También deberá permitir ordenar las tareas según diferentes características.
+
+Se deberán validar los datos introducidos, evitando campos obligatorios vacíos y fechas incorrectas.
+2.4. Almacenamiento de información
+
+    La aplicación deberá conservar toda la información introducida por el usuario aunque cierre el navegador.
+    No se utilizará ningún servidor ni base de datos externa.
+    Las diferentes páginas deberán poder consultar y modificar la información almacenada.
+
+2.5. Componentes personalizados
+
+    La aplicación deberá incorporar al menos tres componentes personalizados
+
+2.6. Requisitos de interfaz
+
+    La aplicación deberá disponer de una navegación que permita acceder a todas sus secciones.
+    Todas las páginas deberán mantener una identidad visual común.
+    La interfaz deberá ser clara, intuitiva y adaptable a diferentes tamaños de pantalla.
+    Se deberán mostrar mensajes informativos cuando se realicen operaciones correctamente o se produzcan errores.
+
+3. Datos iniciales
+
+Para facilitar el desarrollo, se proporcionan los siguientes datos iniciales.
+3.1. Asignaturas
+
+La aplicación comenzará con las siguientes asignaturas:
+ID 	Asignatura 	Profesor 	Color
+1 	Programación 	Laura García 	#6366F1
+2 	Bases de datos 	Carlos Martín 	#14B8A6
+3 	Lenguajes de marcas 	Ana López 	#F59E0B
+4 	Sistemas informáticos 	Javier Ruiz 	#EC4899
+5 	Entornos de desarrollo 	Marta Sánchez 	#8B5CF6
+4. Ejemplo de tareas almacenadas
+
+La aplicación comenzará con las siguientes tareas:
+ID 	Título 	Asignatura 	Fecha de entrega 	Prioridad 	Estado
+101 	Práctica de arrays 	Programación 	2026-11-23 	Alta 	Pendiente
+102 	Ejercicios de funciones 	Programación 	2026-11-25 	Media 	Pendiente
+103 	Diseño de una base de datos 	Bases de datos 	2026-11-24 	Alta 	Pendiente
+104 	Consultas SQL 	Bases de datos 	2026-11-28 	Media 	Completada
+105 	Página web personal 	Lenguajes de marcas 	2026-11-26 	Alta 	Pendiente
+106 	Ejercicios de HTML y CSS 	Lenguajes de marcas 	2026-11-21 	Baja 	Completada
+107 	Instalación de una máquina virtual 	Sistemas informáticos 	2026-11-29 	Media 	Pendiente
+108 	Práctica de Git 	Entornos de desarrollo 	2026-11-27 	Baja 	Pendiente
+109 	Documentación del proyecto 	Entornos de desarrollo 	2026-12-02 	Media 	Pendiente
+110 	Ejercicios de sistemas operativos 	Sistemas informáticos 	2026-11-22 	Alta 	Pendiente

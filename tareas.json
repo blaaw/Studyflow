@@ -1,0 +1,82 @@
+[
+  {
+    "ID": 101,
+    "Título": "Práctica de arrays",
+    "Asignatura": "Programación",
+    "Fecha de entrega": "2026-11-23",
+    "Prioridad": "Alta",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 102,
+    "Título": "Ejercicios de funciones",
+    "Asignatura": "Programación",
+    "Fecha de entrega": "2026-11-25",
+    "Prioridad": "Media",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 103,
+    "Título": "Diseño de una base de datos",
+    "Asignatura": "Bases de datos",
+    "Fecha de entrega": "2026-11-24",
+    "Prioridad": "Alta",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 104,
+    "Título": "Consultas SQL",
+    "Asignatura": "Bases de datos",
+    "Fecha de entrega": "2026-11-28",
+    "Prioridad": "Media",
+    "Estado": "Completada"
+  },
+  {
+    "ID": 105,
+    "Título": "Página web personal",
+    "Asignatura": "Lenguajes de marcas",
+    "Fecha de entrega": "2026-11-26",
+    "Prioridad": "Alta",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 106,
+    "Título": "Ejercicios de HTML y CSS",
+    "Asignatura": "Lenguajes de marcas",
+    "Fecha de entrega": "2026-11-21",
+    "Prioridad": "Baja",
+    "Estado": "Completada"
+  },
+  {
+    "ID": 107,
+    "Título": "Instalación de una máquina virtual",
+    "Asignatura": "Sistemas informáticos",
+    "Fecha de entrega": "2026-11-29",
+    "Prioridad": "Media",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 108,
+    "Título": "Práctica de Git",
+    "Asignatura": "Entornos de desarrollo",
+    "Fecha de entrega": "2026-11-27",
+    "Prioridad": "Baja",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 109,
+    "Título": "Documentación del proyecto",
+    "Asignatura": "Entornos de desarrollo",
+    "Fecha de entrega": "2026-12-02",
+    "Prioridad": "Media",
+    "Estado": "Pendiente"
+  },
+  {
+    "ID": 110,
+    "Título": "Ejercicios de sistemas operativos",
+    "Asignatura": "Sistemas informáticos",
+    "Fecha de entrega": "2026-11-22",
+    "Prioridad": "Alta",
+    "Estado": "Pendiente"
+  }
+]

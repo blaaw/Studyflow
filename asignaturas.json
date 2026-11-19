@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1,
+    "Asignatura": "Programación",
+    "Profesor": "Laura García",
+    "Color": "#6366F1"
+  },
+  {
+    "ID": 2,
+    "Asignatura": "Bases de datos",
+    "Profesor": "Carlos Martín",
+    "Color": "#14B8A6"
+  },
+  {
+    "ID": 3,
+    "Asignatura": "Lenguajes de marcas",
+    "Profesor": "Ana López",
+    "Color": "#F59E0B"
+  },
+  {
+    "ID": 4,
+    "Asignatura": "Sistemas informáticos",
+    "Profesor": "Javier Ruiz",
+    "Color": "#EC4899"
+  },
+  {
+    "ID": 5,
+    "Asignatura": "Entornos de desarrollo",
+    "Profesor": "Marta Sánchez",
+    "Color": "#8B5CF6"
+  }
+]
